@@ -65,6 +65,10 @@ launchctl load ~/Library/LaunchAgents/SyncMyFiles.plist
 osascript ~/code/macos-hd-sync/SyncMyFiles.scpt
 ```
 
+## To Do
+
+- [ ] Confirm start on-run
+
 ## License
 
 MIT

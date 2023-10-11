@@ -4,7 +4,9 @@
 
 ## Overview
 
-This repository contains an AppleScript for automating folder synchronization between an internal and an external drive on macOS. The script ensures that the folders are kept in sync every time the external drive is connected.
+This repository contains an AppleScript for automating folder synchronization between between folders on macOS.
+
+The script ensures that the folders are kept in sync every time the external drive is connected.
 
 ## Features
 

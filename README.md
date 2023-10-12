@@ -42,7 +42,7 @@ Compile the modified AppleScript as an `SyncMyFiles.scpt` file on your Mac.
 Copy the `SyncMyFiles.plist` file to `~/Library/LaunchAgents/` to automate the script execution when the external drive is connected.
 
 ```bash
-cp ~/code/macos-hd-sync/SyncMyFiles.plist ~/Library/LaunchAgents/
+cp ~/code/macos-folder-sync/SyncMyFiles.plist ~/Library/LaunchAgents/
 ```
 
 Run the following command in Terminal to load the `SyncMyFiles.plist` file:
@@ -62,7 +62,7 @@ launchctl load ~/Library/LaunchAgents/SyncMyFiles.plist
 ### Manual
 
 ```bash
-osascript ~/code/macos-hd-sync/SyncMyFiles.scpt
+osascript ~/code/macos-folder-sync/SyncMyFiles.scpt
 ```
 
 ## To Do
